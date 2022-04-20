@@ -4,7 +4,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'graduates-employment-status',
   templateUrl: './employment-status.component.html',
-  styleUrls: ['./employment-status.component.sass']
+  styleUrls: ['./employment-status.component.scss']
 })
 export class EmploymentStatusComponent implements OnInit {
 

@@ -4,7 +4,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'graduates-degree',
   templateUrl: './degree.component.html',
-  styleUrls: ['./degree.component.sass']
+  styleUrls: ['./degree.component.scss']
 })
 export class DegreeComponent implements OnInit {
 

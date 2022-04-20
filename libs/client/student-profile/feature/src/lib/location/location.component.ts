@@ -4,7 +4,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'graduates-location',
   templateUrl: './location.component.html',
-  styleUrls: ['./location.component.sass']
+  styleUrls: ['./location.component.scss']
 })
 export class LocationComponent implements OnInit {
   
