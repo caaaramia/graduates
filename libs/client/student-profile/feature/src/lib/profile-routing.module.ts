@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ProfileBodyComponent } from './profile-body/profile-body.component';
+// import { UpintegrationBodyComponent } from '@graduates/client/upintegration/feature';
 
 const routes: Routes = [
   {
@@ -10,7 +11,11 @@ const routes: Routes = [
   {
     path: ':id',
     component: ProfileBodyComponent
-  }
+  },
+  // {
+  //   path: 'upintegration',
+  //   component: UpintegrationBodyComponent
+  // }
 ];
 
 @NgModule({
