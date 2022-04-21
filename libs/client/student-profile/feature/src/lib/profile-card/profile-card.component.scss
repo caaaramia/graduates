@@ -46,7 +46,7 @@ p {
 .upload {
     background-color: $card-gold;
     display: flex;
-    position: relative;
+    left: 8%;
 }
     
 .mat-button {
@@ -56,11 +56,13 @@ p {
 }
 
 h2 {
-    color: $primary-1;
+    color: $text-blue;
     margin-bottom: 1px;
+    margin-left: 45%;
+    margin-top: 5%;
 }
 
-mat-divider {
+.mat-divider {
     border-top-color: $primary-1;
 }
 
@@ -72,9 +74,9 @@ a {
 
 
 svg {
-    width: 25%;
+    width: 10%;
     display: inline-flex;
-    margin-left: 5%;
+    margin-left: 20%;
 }
 
 
@@ -86,11 +88,12 @@ svg {
 }
 
 
-mat-icon {
+.mat-icon {
     color: $primary-1;
     font-size: large;
     margin-top: 2%;
 }
+
 
 // responsiveness
 //////////////////////////////////////////////////////////////////////////////////////////
