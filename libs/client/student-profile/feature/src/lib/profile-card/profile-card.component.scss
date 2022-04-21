@@ -16,7 +16,11 @@
     margin-right: 5em;
     justify-content: center;
 }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> cara-test
 img {
     background: linear-gradient(#fff, #fff) padding-box, linear-gradient(to right, red, orange) border-box;
     border: 5px solid transparent;
@@ -46,7 +50,11 @@ p {
 .upload {
     background-color: $card-gold;
     display: flex;
+<<<<<<< HEAD
     left: 8%;
+=======
+    position: relative;
+>>>>>>> cara-test
 }
     
 .mat-button {
@@ -56,6 +64,7 @@ p {
 }
 
 h2 {
+<<<<<<< HEAD
     color: $text-blue;
     margin-bottom: 1px;
     margin-left: 45%;
@@ -122,6 +131,59 @@ svg {
     }
 }
 
+=======
+    color: #174372;
+    margin-bottom: 1px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+a {
+    font-size: small;
+    white-space: pre-wrap;
+    display: inline;
+}
+
+svg {
+    width: 10%;
+    display: inline-flex;
+    margin-left: 20%;
+}
+
+.icon {
+    float: right;
+    color: #174372;
+    font-size: xx-large;
+}
+
+// responsiveness
+//////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 428px) {
+    .profile-section {
+        width: 100%;
+        max-height: 13em;
+    }
+    
+    .mat-raised-button {
+        max-width: 14em;
+        margin-top: 5% !important;
+    }
+
+    p {
+        font-size: x-large;
+        margin-left: 8% !important;
+    }
+
+    img {
+        width: 50% !important;
+    }
+
+    .mat-button {
+        margin-left: 3% !important;
+    }
+}
+
+>>>>>>> cara-test
 
 @media (max-width: $tablet-width) {
     .profile-section {
@@ -151,9 +213,15 @@ svg {
     }
 
     p {
+<<<<<<< HEAD
         transform: scale(0.85);
         margin-top: 5%;
         margin-right: 25%;
+=======
+       transform: scale(0.85);
+       margin-top: 5%;
+       margin-right: 25%;
+>>>>>>> cara-test
     }
 
     .mat-raised-button {
@@ -182,7 +250,10 @@ svg {
 }
 
 @media (min-width: $desktop-width) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> cara-test
     .profile-section {
         width: 79%;
         height: 35em;
@@ -196,7 +267,10 @@ svg {
         margin-left: 40% !important;
         margin-right: auto;
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> cara-test
 
     .mat-raised-button {
         margin-left: 18% !important;

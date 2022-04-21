@@ -24,7 +24,11 @@ body {
     }
         
     @include phone {
+<<<<<<< HEAD
         margin: auto;
+=======
+        margin: auto ;
+>>>>>>> cara-test
         width: auto;
     }
 }
